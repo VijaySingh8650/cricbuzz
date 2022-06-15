@@ -75,6 +75,7 @@
 .dropMenu{
     position: relative;
     transition: all 0.3s;
+    z-index: 100;
 }
 #news_drop{
     /* padding: 10px; */
@@ -342,4 +343,17 @@
     margin-left: 10px;
     color: #fff;
     font-size: 10px;
+}
+
+
+/* lets color the scroll bar */
+::-webkit-scrollbar{
+    width: 10px;
+   
+}
+::-webkit-scrollbar-track{
+    background-color: #E3E6E3;
+}
+::-webkit-scrollbar-thumb{
+    background: #009270;
 }
