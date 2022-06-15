@@ -16,6 +16,7 @@
 }
 #navbar1>img{
     height: 30px;
+    cursor: pointer;
 
 }
 #navbar1 a{
