@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@400;500&family=Poppins:wght@100;200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#match_details>.heading>div{
+    margin: 5px 10px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#match_details>.heading>div>p{
+    font-size: 13px;
+    font-weight: 400;
+}
+#match_details>.heading>div>bold{
+    font-weight: 600;
+}
+#match_details>.heading>h1{
+    /* text-align: center; */
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
+.tags>a{
+    margin-left:10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+/* .tags>#commentary{
+    margin-left:10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #009270;
+    font-weight: 700;
+    border-bottom: 3px solid #009270;
+
+} */
+#match_details>.tags>hr{
+    border-top: 2px solid #E3E6E3;
+    border-bottom: none;
+}
+#para{
+   /* height: auto; */
+   width: 100%;
+}
+#para>h4:nth-child(1){
+    color: #666;
+    margin:10px 0 5px 10px;
+
+}
+#para>h4:nth-child(2){
+    color: #000;
+    margin:0 0 10px 10px;
+    
+}
+#para>p:nth-child(3){
+   color: blue; 
+   margin: 20px 0 20px 10px;
+   font-size: 13px;
+}
+#para>p:nth-child(4){
+    color: #666;
+    font-size: 12px;
+    margin-left: 12px;
+
+}
+#para>.name{
+    color: #222;
+    font-size: 14px;
+    margin-left: 10px;
+}
+#para>h6{
+  font-size: 14px;  
+  font-weight: 400;
+  margin: 20px 10px;
+  
+}
+
+

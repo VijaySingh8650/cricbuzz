@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@400;500&family=Poppins:wght@100;200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#para>#won{
+    color: blue;
+    margin: 10px 0 10px 10px;
+    font-size: 14px;
+}
+.teamfirst{
+    background-color: #4a4a4a;
+    height: 30px;
+    margin: 0 5px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.teamfirst>p{
+    color: #fff;
+    font-size: 15px;
+}
+.teamsecond{
+    background-color: #4a4a4a;
+    height: 30px;
+    margin: 0 5px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.teamsecond>p{
+    color: #fff;
+    font-size: 15px;
+}
+table{
+    /* width: 100%; */
+    
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+}
+table>thead{
+    background-color: #aaa;
+    width: 100%;
+}
+table>thead>tr>th{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+table>thead>tr>th:nth-child(1){
+    text-align: left;
+    padding-left: 10px;
+}
+
+table>tbody>tr>td{
+   font-size: 14px;
+   text-align: center;
+   
+   
+}
+table>tbody>tr>td{
+    padding: 5px 0;
+}
+
+table>tbody>tr>td:nth-child(1){
+    text-align: left;
+    color: blue;
+    padding-left: 10px;
+}
+.extra{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 300px ;
+    font-size: 15px;
+    
+}
+.total{
+    /* width: 100%; */
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 300px ;
+
+}
+.notBat{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 300px ;
+}
+.notBat>p:nth-child(2){
+    color: blue;
+}
+
+.fall{
+    height: 20px;
+    background-color: #aaa;
+    margin: 0 5px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.fall>p{
+    font-size: 14px;
+    color: #4a4a4a;
+    font-weight: 700;
+
+}
+.fall+p{
+    color: blue;
+    font-size: 14px;
+    margin: 10px 10px;
+}
