@@ -33,6 +33,11 @@
     width: 30%;
 }
 
+#card01 {
+    background-color: #009270;
+    color: white;
+}
+
 .card1 {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -78,7 +83,7 @@
 
 .icon>div:nth-child(2)>a {
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 
 #card>div:nth-child(1) {
@@ -94,6 +99,10 @@
     margin-bottom: 10px;
 }
 
+.icon>img {
+    height: 20px;
+}
+
 #p {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -101,8 +110,9 @@
     border-bottom: 1px solid #8e8e8e;
 }
 
-#img1>img {
-    height: 30px;
+#img1>div {
+    border-bottom: 1px solid #8e8e8e;
+    width: 78%;
 }
 
 #pra {
@@ -114,7 +124,7 @@
 
 #img1 {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 20px;
 }
 
@@ -138,7 +148,7 @@
     height: 40px;
     font-size: 16px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 25px 10px 10px 10px;
     margin-bottom: 20px;
     border: 1px solid #8e8e8e;
 }
@@ -148,7 +158,9 @@
     height: 40px;
     font-size: 16px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 25px 10px 10px 10px;
+    align-items: center;
+    background: #e4e3e3;
     margin-bottom: 20px;
     border: 1px solid #8e8e8e;
 }
@@ -159,4 +171,8 @@
 
 #avtar>img {
     border-radius: 50%;
+}
+
+#footer_div {
+    margin-top: 40px
 }

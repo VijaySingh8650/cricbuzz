@@ -1,4 +1,4 @@
-let navbar = ()=>{
+let navbar = () => {
     return `<img src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
     <a href="live.html" title="Live Cricket Score">Live Scores</a>
     <a href="shedule.html" title="Cricket Schedule">Schedule</a>
@@ -133,11 +133,11 @@ let navbar = ()=>{
     </div>
     <button id="navBar_btn">Cricbuzz Plus</button>
     <i class="fa fa-search changeOfNavi" ></i>
-    <i class='far fa-user-circle changeOfNavi'></i>`;
+    <a href="accontinfo.html"><i class='far fa-user-circle changeOfNavi'></i></a>`;
 }
 
 export default navbar;
-
+//<a href="accontinfo.html"><i class='far fa-user-circle changeOfNavi'></i></a>
 // <a href="" title="Cricket Quiz">Quiz</a>
 // <a href="" title="Mobile Apps">Mobile Apps</a>
 // <a href="" title="Careers">Careers</a>

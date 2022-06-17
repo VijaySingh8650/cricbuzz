@@ -3,6 +3,9 @@ import navbar3 from "../components/navbar3.js";
 let navbarAppend = document.getElementById("navbar1");
 navbarAppend.innerHTML = navbar3();
 document.getElementById("su").addEventListener('click', get);
+document.querySelector("#logo").addEventListener("click", function() {
+    window.location.href = "index.html";
+})
 
 function get() {
     if (0 < (+data)) {

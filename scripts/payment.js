@@ -1,8 +1,11 @@
-import navbar3 from "../components/navbar3.js";
+import pay2 from "../components/pay2.js";
 let navbarAppend = document.getElementById("navbar1");
-navbarAppend.innerHTML = navbar3();
+navbarAppend.innerHTML = pay2();
 document.getElementById("proceed").addEventListener('click', get)
 
+document.querySelector("#navbar1>img").addEventListener("click", function() {
+    window.location.href = "index.html";
+})
 
 function get() {
     event.preventDefault();
