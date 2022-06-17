@@ -101,20 +101,20 @@ let navbar = ()=>{
     </div>
     </div>
     <div title="Cricket Videos" class="icon dropMenu">
-       <a href="">Videos</a>
+       <a href="./video.html">Videos</a>
        <i class="fa-solid fa-caret-down"></i>
        <div id="videos_drop">
-        <a href="" title="All Cricket Videos">All Videos</a>
-        <a href="" title="Cricket Videos Categories">Categories</a>
-        <a href="" title="Cricket Videos Playlists">Playlists</a>
+        <a href="./video.html" title="All Cricket Videos">All Videos</a>
+        <a href="./category.html" title="Cricket Videos Categories">Categories</a>
+        <a href="./playlist.html" title="Cricket Videos Playlists">Playlists</a>
        </div>
     </div>
     <div title="ICC Rankings" class="icon dropMenu">
-        <a href="">Rankings</a>
+        <a href="./ranking.html">Rankings</a>
         <i class="fa-solid fa-caret-down"></i>
         <div id="rankings_drop">
-           <a href="" title="ICC Rankings Men">ICC Rankings - Men</a> 
-           <a href="" title="ICC Rankings Women">ICC Rankings - Women</a> 
+           <a href="./ranking.html" title="ICC Rankings Men">ICC Rankings - Men</a> 
+           <a href="./women_ranking.html" title="ICC Rankings Women">ICC Rankings - Women</a> 
         </div>
 
     </div>
@@ -122,13 +122,13 @@ let navbar = ()=>{
        <a>More</a> 
        <i class="fa-solid fa-caret-down"></i>
        <div id="more_drop">
-        <a href="" title="World Test Championship">World Test Championship</a>
-        <a href="" title="World Cup Super League">World Cup Super League</a>
-        <a href="" title="Cricket Quiz">Quiz</a>
-        <a href="" title="Photo Gallery">Photos</a>
-        <a href="" title="Mobile Apps">Mobile Apps</a>
-        <a href="" title="Careers">Careers</a>
-        <a href="" title="Contact Us">Contact Us</a>
+        <a href="./test_cham.html" title="World Test Championship">World Test Championship</a>
+        <a href="./super.html" title="World Cup Super League">World Cup Super League</a>
+        
+        <a href="./p_phothos.html" title="Photo Gallery">Photos</a>
+        
+        
+        <a href="./fed.html" title="Contact Us">Contact Us</a>
        </div>
     </div>
     <button id="navBar_btn">Cricbuzz Plus</button>
@@ -137,3 +137,7 @@ let navbar = ()=>{
 }
 
 export default navbar;
+
+// <a href="" title="Cricket Quiz">Quiz</a>
+// <a href="" title="Mobile Apps">Mobile Apps</a>
+// <a href="" title="Careers">Careers</a>
