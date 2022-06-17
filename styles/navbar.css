@@ -358,3 +358,6 @@
 ::-webkit-scrollbar-thumb{
     background: #009270;
 }
+.fa-circle-user:before, .fa-user-circle:before {
+    content: "\f2bd";
+}

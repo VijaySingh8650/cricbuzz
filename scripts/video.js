@@ -8,8 +8,9 @@ import navbar2 from "../components/navbar2.js";
 let navbarAppend2 = document.getElementById("navbar2");
 navbarAppend2.innerHTML=navbar2();
 
-import foot from  '../components/footerx.js'
-document.querySelector('#footer').innerHTML=foot()
+import footer from "../components/footer.js";
+let footerOfCricbuzz = document.getElementById("footer_div");
+footerOfCricbuzz.innerHTML=footer();
 
 
 
