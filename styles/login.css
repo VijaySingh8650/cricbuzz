@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #e3e6e3
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#head {
+    /* margin: auto;
+    width: 80%; */
+    background-color: #009270;
+    background: #009270;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+#head>img {
+    width: 10%;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+#page {
+    margin: 0;
+    width: 100%;
+}
+
+#page1 {
+    padding-bottom: 800px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#home1 {
+    margin-left: 10px;
+}
+
+#home {
+    align-items: center;
+    /* padding: 10px; */
+    /* height: 60px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#body {
+    margin-top: 165px;
+    text-align: center;
+}
+
+#inputbox {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#otp {
+    /* margin-top: 20PX; */
+    justify-content: center;
+    display: flex;
+}
+
+#otp>input {
+    border-color: transparent;
+    width: 32px;
+    height: 31px;
+    /* border: 1px solid transparent; */
+    line-height: 50px;
+    text-align: center;
+    font-weight: 200;
+    margin: 0 4px;
+    border-radius: 2px;
+}
+
+#h3 {
+    font-size: 30px;
+}
+
+#p0 {
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+    font-size: 14px;
+}
+
+#resent {
+    margin-top: 10px;
+}
+
+#resent>a {
+    text-decoration: none;
+}
+
+#sp {
+    color: #000;
+    font-weight: bold;
+}
+
+.sp {
+    text-decoration: none;
+}
+
+#input {
+    width: 28%;
+    border-bottom: 1px solid #000;
+    margin-left: 37%;
+}
+
+#email {
+    width: 300px;
+    border-color: transparent;
+}
+
+#input>input {
+    border-color: transparent;
+}
+
+#email:input:hover {
+    border-color: transparent;
+}
+
+.subb {
+    margin-top: 20PX;
+    width: 23%;
+    height: 35px;
+    border-radius: 5px;
+    border-color: #009270;
+    background-color: #009270;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}

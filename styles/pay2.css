@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@400;500&family=Poppins:wght@100;200;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* navbar1 */
+
+#navbar1 {
+    background: #009270;
+    height: 50px;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+#navbar1>img {
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center;
+    height: 30px;
+}
+
+#card {
+    display: flex;
+    justify-content: space-around;
+}
+
+#card>div:nth-child(1) {
+    width: 30%;
+}
+
+.card1 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* margin: auto; */
+}
+
+.card1>div>p {
+    color: #8e8e8e;
+}
+
+#inp2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#proceed {
+    background-color: #009270;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+#card>div:nth-child(1) {
+    margin-top: 30px;
+}
+
+#card>div:nth-child(2) {
+    margin-top: 30px;
+}
+
+.p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#img1>div {
+    height: 30px;
+}
+
+#pra {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+#img1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#img1>span {
+    font-size: 30px;
+}
+
+#inp2>div:nth-child(2) {
+    margin-left: 80px;
+}
+
+.input {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input0 {
+    width: 96%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#img {
+    height: 30px;
+}
