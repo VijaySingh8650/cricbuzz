@@ -173,6 +173,7 @@
       let row_2 = document.createElement('tr');
       let row_2_data_1 = document.createElement('td');
       row_2_data_1.innerHTML = elem.name||"";
+      row_2_data_1.style.color="blue"
       let row_2_data_2 = document.createElement('td');
       row_2_data_2.innerHTML = elem.outDec||"";
       let row_2_data_3 = document.createElement('td');
