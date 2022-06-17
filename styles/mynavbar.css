@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    padding: 20px 0;
+}
+
+.navbar a{
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    color: black;
+
+}
+.opt{
+    display: flex;
+    /* padding: 20px; */
+    margin: 10px 10px 5px 20px;
+    color: black;
+}
+.opt a{
+    padding: 0 20px 0 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+#articals div{
+    margin-bottom: 20px;
+}
+#articals div img{
+    width: 60%;
+    display: block;
+    
+   
+}
+#articals div p{
+    font-size: 14px;
+    padding: 5px 20px;
+}

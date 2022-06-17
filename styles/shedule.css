@@ -1,0 +1,32 @@
+#shedule{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+
+
+}
+#shedule>div>div>div{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: auto;
+   justify-content: space-between;
+    padding: 20px;
+    font-size: 14px;
+    /* font-weight: bold; */
+    /* border: 1px solid green; */
+}
+#shedule>div>h4 {
+    background-color: #ecebeb;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+#shedule>div>div>div>p:nth-child(1){
+    font-weight: bold;
+}
+#shedule>div>div>div>p:nth-child(2){
+   color: gray;
+    
+}

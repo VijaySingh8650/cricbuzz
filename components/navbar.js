@@ -1,8 +1,8 @@
 let navbar = ()=>{
     return `<img src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
-    <a href="" title="Live Cricket Score">Live Scores</a>
-    <a href="" title="Cricket Schedule">Schedule</a>
-    <a href="" title="Cricket Scorecard Archives">Archives</a>
+    <a href="live.html" title="Live Cricket Score">Live Scores</a>
+    <a href="shedule.html" title="Cricket Schedule">Schedule</a>
+    <a href="archives.html" title="Cricket Scorecard Archives">Archives</a>
      <div title="News"  class="icon dropMenu">
         <a href="">News</a>
         <i class="fa-solid fa-caret-down"></i>
