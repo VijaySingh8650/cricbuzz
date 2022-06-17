@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main_contaner{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+#for_bac{
+    width: 100%;
+    height: auto;
+    background-color: rgb(219, 226, 233);
+}
+#video_catagory{
+    /* border: 1px solid black; */
+    border-bottom: 0.5px solid rgb(163, 156, 156);
+}
+#cri_vid{
+   margin-left: 2.5%;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: 'Roboto', sans-serif;
+}
+#video_catagory>div{
+    display: flex;
+}
+#video_catagory>div>p{
+    margin-left: 2.5%;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#video_catagory>div>p:after{
+    content: '';
+    position: absolute;
+    background-color: #009270;;
+    
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+#video_catagory>div>p:hover{
+    color: black;
+}
+#video_catagory>div>p:hover:after{
+    width: 100%;
+}
+#filter{
+    border-bottom: 0.5px solid rgb(163, 156, 156);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+#filter>button {
+    align-items: center;
+    background-color: #009270;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  #filter>button:hover,
+  .button-18:focus { 
+    background-color: rgb(16, 71, 71);
+    color: #ffffff;
+  }
+  
+  #filter>button:active {
+    background: #023f20;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  #filter>button:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
+#filter>button{
+    height: 35%;
+    width: 7%;
+    margin-left: 20px;
+}
+
+#data_bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    background-color: rgb(167, 162, 162);
+    font-weight: bold;
+}
+
+#append_box>div{
+    border: 1px solid rgb(230, 227, 227);
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 80px;
+    background-color: rgb(177, 203, 226);
+}
+
+.rank{
+    margin-left: 10%;
+}
+.img_div{
+    margin-left: 18%;
+}
+.name{
+    margin-left: 14%;
+    /* border: 1px solid black; */
+    width: 20%;
+    align-items: center;
+    height: auto;
+}
+.country{
+    margin-left: 1%;
+    /* border: 1px solid black; */
+    width: 15%;
+}
+.ratting{
+    margin-left: 7%;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main_contaner{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+#for_bac{
+    width: 100%;
+    height: auto;
+    background-color: rgb(219, 226, 233);
+}
+#imgg{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+#false{
+    width: 100%;
+    height: 500px;
+}
+
+
+

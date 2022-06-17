@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main_contaner{
+    width: 95%;
+    height:900px;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: white;
+    display: flex;
+}
+#for_bac{
+    width: 100%;
+    height: auto;
+    background-color: rgb(219, 226, 233);
+}
+#left{
+    width: 60%;
+    height: auto;
+    border-right: 1px solid rgb(182, 176, 176);
+}
+#right{
+    width: 40%;
+    height: auto;
+}
+#right>h3{
+    margin-left: 4%;
+    margin-top: 15px;
+}
+#left>h2{
+    margin-left: 4%;
+    margin-top: 15px;
+}
+#right>p{
+    margin-left: 4%;
+    margin-right: 40%;
+}
+#left>p{
+    margin-left: 4%;
+    margin-right: 2%;
+}
+#f_div{
+    margin-left: 4%;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+}
+input{
+    display: block;
+}
+#nam,#sub,#eml{
+    width: 70%;
+    height: 40px;
+    padding: 1%;
+}
+#mes{
+    width: 70%;
+    height: 120px;
+    padding: 1%;
+}
+form>p{
+    margin-top: 30px;
+}
+form>button{
+    margin-top: 35px;
+}
+form>button{
+    background-color: #0c6330;
+    border: 1px solid #0c7437;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* width: 13%;
+    height: 30px; */
+  }
+  
+  form>button:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    form>button {
+      padding: 10px 30px;
+    }
+  }
+  #map{
+    /* border: 1px solid black; */
+    width: 75%;
+    height: 400px;
+    margin-left: 4%;
+    margin-top: 20px;
+  }
+  #map>iframe{
+    width: 100%;
+    height: 100%;
+  }
