@@ -72,29 +72,29 @@ let navbar = () => {
         </div>
         <div>
             <h4>Associate</h4> 
-            <a href="" title="Italy Cricket Team">Italy</a>
+            <a href="it.html" title="Italy Cricket Team">Italy</a>
 
-            <a href="" title="Botswana Cricket Team">Botswana</a>
+            <a href="bot.html" title="Botswana Cricket Team">Botswana</a>
 
-            <a href="" title="Belgium Cricket Team">Belgium</a>
+            <a href="bel.html" title="Belgium Cricket Team">Belgium</a>
 
-            <a href="" title="Iran Cricket Team">Iran</a>
+            <a href="iron.html" title="Iran Cricket Team">Iran</a>
 
-            <a href="" title="Denmark Cricket Team">Denmark</a>
+            <a href="den.html" title="Denmark Cricket Team">Denmark</a>
 
-            <a href="" title="Singapore Cricket Team">Singapore</a>
+            <a href="singa.html" title="Singapore Cricket Team">Singapore</a>
 
-            <a href="" title="Namibia Cricket Team">Namibia</a>
+            <a href="nami.html" title="Namibia Cricket Team">Namibia</a>
 
-            <a href="" title="Uganda Cricket Team">Uganda</a>
+            <a href="ugan.html" title="Uganda Cricket Team">Uganda</a>
 
-            <a href="" title="Malaysia Cricket Team">Malaysia</a>
+            <a href="mala.html" title="Malaysia Cricket Team">Malaysia</a>
 
-            <a href="" title="Nepal Cricket Team">Nepal</a>
+            <a href="nep.html" title="Nepal Cricket Team">Nepal</a>
 
-            <a href="" title="Germany Cricket Team">Germany</a>
+            <a href="ger.html" title="Germany Cricket Team">Germany</a>
 
-            <a href="" title="Canada Cricket Team">Canada</a>
+            <a href="can.html" title="Canada Cricket Team">Canada</a>
          </div>
          <a href="" id="teams_Drop_more" title="Cricket teams" style="color: blue;">More...</a>
         </div>
