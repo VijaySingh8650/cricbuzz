@@ -1,0 +1,16 @@
+#news{
+    width: 80%;
+    /* border: 1px solid black; */
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: auto; */
+   
+}
+#news>a{
+    text-decoration: none;
+    
+    color: rgb(95, 91, 91);
+    
+}

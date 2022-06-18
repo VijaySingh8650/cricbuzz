@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview</title>
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="/styles/navbar.css">
+    <link rel="shortcut icon" href="https://www.cricbuzz.com/images/cb_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/styles/news.css">
+    <link rel="stylesheet" href="/styles/new.css">
+</head>
+<body> <!-- nabar 1st part -->
+  <div id="navbar1">
+  </div>
+
+  <!-- navbar 2nd  part -->
+  <div id="navbar2">
+     
+  </div>
+  <!-- container for navbar2 -->
+  <div id="container_navbar2"></div>
+    <div id="nav"></div>
+    <h2 class="h2i">Interviews</h2>
+     <div id="new"></div>
+       <!-- footer -->
+    <div id="footer_div">
+       
+    </div>
+
+</body>
+</html>
+<script type="module" >
+  import navbar from "../components/navbar.js";
+let navbarAppend = document.getElementById("navbar1");
+navbarAppend.innerHTML=navbar();
+
+// console.log(navbar());
+import navbar2 from "../components/navbar2.js";
+let navbarAppend2 = document.getElementById("navbar2");
+navbarAppend2.innerHTML=navbar2();
+    import nav from '../components/news.js';
+  //   console.log(nav());
+    document.querySelector("#nav").innerHTML=nav();
+
+    import footer from "../components/footer.js";
+let footerOfCricbuzz = document.getElementById("footer_div");
+footerOfCricbuzz.innerHTML=footer();
+  </script>
+  <script src="/scripts/interview.js"></script>
