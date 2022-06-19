@@ -8,4 +8,9 @@ navbarAppend2.innerHTML=navbar2();
 
 import footer from "../components/footer.js";
 let footerOfCricbuzz = document.getElementById("footer_div");
-footerOfCricbuzz.innerHTML=footer();
+footerOfCricbuzz.innerHTML=footer
+
+//clicking on image 
+document.querySelector("#navbar1>img").addEventListener("click",function(){
+    window.location.href="index.html";
+  })
