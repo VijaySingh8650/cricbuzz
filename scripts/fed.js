@@ -12,6 +12,11 @@ footerOfCricbuzz.innerHTML=footer();
 
 let alart = document.querySelector('#alart')
 
+
+//clicking on image 
+document.querySelector("#navbar1>img").addEventListener("click",function(){
+    window.location.href="index.html";
+})
 alart.addEventListener('click',falart)
 
 function falart(){

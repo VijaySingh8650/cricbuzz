@@ -75,6 +75,7 @@
 .dropMenu{
     position: relative;
     transition: all 0.3s;
+    z-index: 200;
 }
 #news_drop{
     /* padding: 10px; */
@@ -108,6 +109,7 @@
 .dropMenu:hover #news_drop{
     opacity: 1;
     visibility: visible;
+    z-index: 200;
 }
 #videos_drop{
     background-color: #E3E6E3;
@@ -139,6 +141,7 @@
 .dropMenu:hover #videos_drop{
     opacity: 1;
     visibility: visible;
+    z-index: 200;
 }
 
 
@@ -172,6 +175,7 @@
 .dropMenu:hover #rankings_drop{
     opacity: 1;
     visibility: visible;
+    z-index: 200;
 }
 #more_drop{
     background-color: #E3E6E3;
@@ -203,6 +207,7 @@
 .dropMenu:hover #more_drop{
     opacity: 1;
     visibility: visible;
+    z-index: 200;
 }
 
 #series_drop{
@@ -236,6 +241,7 @@
 .dropMenu:hover #series_drop{
     opacity: 1;
     visibility: visible;
+    z-index: 200;
 }
 #teams_Drop{
     display: flex;

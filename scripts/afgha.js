@@ -1,3 +1,18 @@
+import navbar from "../components/navbar.js";
+let navbarAppend = document.getElementById("navbar1");
+navbarAppend.innerHTML=navbar();
+
+// console.log(navbar());
+import navbar2 from "../components/navbar2.js";
+let navbarAppend2 = document.getElementById("navbar2");
+navbarAppend2.innerHTML=navbar2();
+
+import footer from "../components/footer.js";
+let footerOfCricbuzz = document.getElementById("footer_div");
+footerOfCricbuzz.innerHTML=footer();
+
+
+
 let conData=[{img:"https://www.cricbuzz.com/a/img/v1/205x152/i1/c235996/cms-img.jpg",
 h3:"Noor Ahmad stars as Afghanistan clean-sweep T20I series",
 p:"Quinton de Kock is in contention to return to the playing XI having missed the last couple of games"},
@@ -45,7 +60,7 @@ let append=(conData)=>{
         div1.append(img);
         div2.append(h3,p,p1);
         div3.append(div1,div2);
-        console.log(h3)
+        // console.log(h3)
         document.querySelector("#team").append(div3)
     })
 }

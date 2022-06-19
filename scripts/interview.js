@@ -1,3 +1,27 @@
+
+//clicking on image 
+document.querySelector("#navbar1>img").addEventListener("click",function(){
+  window.location.href="index.html";
+})
+
+
+import navbar from "../components/navbar.js";
+let navbarAppend = document.getElementById("navbar1");
+navbarAppend.innerHTML=navbar();
+
+// console.log(navbar());
+import navbar2 from "../components/navbar2.js";
+let navbarAppend2 = document.getElementById("navbar2");
+navbarAppend2.innerHTML=navbar2();
+    import nav from '../components/news.js';
+  //   console.log(nav());
+    document.querySelector("#nav").innerHTML=nav();
+
+    import footer from "../components/footer.js";
+let footerOfCricbuzz = document.getElementById("footer_div");
+footerOfCricbuzz.innerHTML=footer();
+
+
 let newData=[{img:"https://www.cricbuzz.com/a/img/v1/205x152/i1/c232754/karim-is-handy-down-the-lower.jpg",
 p1:"AFGHANISTAN CRICKET",
 h4:"'I want to be a mix of Rohit Sharma and Shoaib Akhtar' - Karim Janat",
