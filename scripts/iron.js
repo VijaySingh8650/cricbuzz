@@ -1,3 +1,29 @@
+
+//clicking on image 
+document.querySelector("#navbar1>img").addEventListener("click",function(){
+    window.location.href="index.html";
+})
+
+
+
+
+import navbar from "../components/navbar.js";
+let navbarAppend = document.getElementById("navbar1");
+navbarAppend.innerHTML=navbar();
+
+// console.log(navbar());
+import navbar2 from "../components/navbar2.js";
+let navbarAppend2 = document.getElementById("navbar2");
+navbarAppend2.innerHTML=navbar2();
+
+import footer from "../components/footer.js";
+let footerOfCricbuzz = document.getElementById("footer_div");
+footerOfCricbuzz.innerHTML=footer();
+
+
+
+
+
 let conData=[{img:"https://scontent.fjai1-1.fna.fbcdn.net/v/t1.6435-9/107887087_3432458453444783_8197447634339808313_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=101&ccb=1-7&_nc_sid=ed5ff1&_nc_ohc=1I5HWZgKoAgAX9Uqxxr&_nc_ht=scontent.fjai1-1.fna&oh=00_AT-NtLGJm4terB3be_onm4XLYqxD09IPM8eYSoY_zZNvUQ&oe=62D2A799",
 h3:"Cricket in Iran is a fledgling sport ",
 p:"Quinton de Kock is in contention to return to the playing XI having missed the last couple of games"},

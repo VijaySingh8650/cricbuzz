@@ -1,4 +1,24 @@
+import navbar from "../components/navbar.js";
+let navbarAppend = document.getElementById("navbar1");
+navbarAppend.innerHTML=navbar();
 
+// console.log(navbar());
+import navbar2 from "../components/navbar2.js";
+let navbarAppend2 = document.getElementById("navbar2");
+navbarAppend2.innerHTML=navbar2();
+    import nav from '../components/news.js';
+  //   console.log(nav());
+    document.querySelector("#nav").innerHTML=nav();
+
+    import footer from "../components/footer.js";
+let footerOfCricbuzz = document.getElementById("footer_div");
+footerOfCricbuzz.innerHTML=footer();
+
+
+//clicking on image 
+document.querySelector("#navbar1>img").addEventListener("click",function(){
+    window.location.href="index.html";
+  })
 let newData=[{img:"https://www.cricbuzz.com/a/img/v1/205x152/i1/c235313/since-shakib-revealed-that-he.jpg",
 p1:"NEW CAPTAIN",
 h4:"Was BCB's best option in re-naming Shakib Test captain the right option?",

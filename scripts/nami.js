@@ -1,3 +1,24 @@
+import navbar from "../components/navbar.js";
+    let navbarAppend = document.getElementById("navbar1");
+    navbarAppend.innerHTML=navbar();
+    
+    // console.log(navbar());
+    import navbar2 from "../components/navbar2.js";
+    let navbarAppend2 = document.getElementById("navbar2");
+    navbarAppend2.innerHTML=navbar2();
+
+    import footer from "../components/footer.js";
+let footerOfCricbuzz = document.getElementById("footer_div");
+footerOfCricbuzz.innerHTML=footer();
+
+
+//clicking on image 
+document.querySelector("#navbar1>img").addEventListener("click",function(){
+    window.location.href="index.html";
+  })
+
+
+
 let conData=[{img:"https://www.cricbuzz.com/a/img/v1/205x152/i1/c234753/cms-img.jpg",
 h3:"Namibia seal historic series win after spin-dominated finale",
 p:"Quinton de Kock is in contention to return to the playing XI having missed the last couple of games"},
