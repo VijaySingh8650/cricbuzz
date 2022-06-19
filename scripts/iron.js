@@ -1,8 +1,5 @@
 
-//clicking on image 
-document.querySelector("#navbar1>img").addEventListener("click",function(){
-    window.location.href="index.html";
-})
+
 
 
 
@@ -20,7 +17,10 @@ import footer from "../components/footer.js";
 let footerOfCricbuzz = document.getElementById("footer_div");
 footerOfCricbuzz.innerHTML=footer();
 
-
+//clicking on image 
+document.querySelector("#navbar1>img").addEventListener("click",function(){
+    window.location.href="index.html";
+})
 
 
 
