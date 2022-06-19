@@ -65,7 +65,7 @@ let append=(conData)=>{
         div1.append(img);
         div2.append(h3,p,p1);
         div3.append(div1,div2);
-        console.log(h3)
+        // console.log(h3)
         document.querySelector("#team").append(div3)
     })
 }
